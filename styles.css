@@ -59,7 +59,7 @@ font-family: 'Roboto Condensed', sans-serif;
     padding: 1.25rem;
 }
 
-.intro button {
+.intro button, .restart-btn {
     padding: 0.6rem 1.125rem;
     margin-top: 1rem;
     background: #3a015c;
@@ -73,7 +73,7 @@ font-family: 'Roboto Condensed', sans-serif;
     transition: all 0.4s ease;
 }
 
-.intro button:hover {
+.intro button:hover ,.restart-btn:hover {
     color: #3a015c;
     background-color: #dedede;
 }
@@ -81,7 +81,7 @@ font-family: 'Roboto Condensed', sans-serif;
 /* THE ACTUAL GAME */
 .match {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -121,6 +121,13 @@ font-family: 'Roboto Condensed', sans-serif;
     background-color: #4f0147;
 }
 
+footer {
+    padding-right: 2rem;
+    font-size: 0.8rem;
+    text-align: right;
+    margin-top: 8rem;
+}
+
 /* RESPONSIVE */
 @media (max-width: 600px) {
     .intro h1 {
@@ -137,6 +144,10 @@ font-family: 'Roboto Condensed', sans-serif;
     }
     .options {
         margin-top: 1rem;
+    }
+    footer {
+        text-align: center;
+        padding-right: 0;
     }
 }
 
