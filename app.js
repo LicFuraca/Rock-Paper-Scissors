@@ -53,15 +53,6 @@ const scoreKepper = () => {
   cScoreDisplay.textContent = cScoreCount;
 };
 
-// CHECK SCORE UP TO 12.
-// const checkWinner = (winner) => {
-//     if(pScoreCount === 12) {
-//         winner.textContent = 'Congratulations! You Won!';
-//     } else if (cScoreCount === 12) {
-//         winner.textContent = "I'm Sorry, you lost.."
-//     };
-// };
-
 // WHO WINS?
 const compareHands = (playerChoice, computerChoice) => {
   const winner = document.querySelector(".winner");
