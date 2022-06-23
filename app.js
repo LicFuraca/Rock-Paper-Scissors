@@ -78,14 +78,12 @@ const compareHands = (playerChoice, computerChoice) => {
       winner.textContent = "You Lose :(";
       cScoreCount++;
       scoreKepper();
-      checkWinner(winner);
       return;
     } else {
       if (computerChoice === "scissors") {
         winner.textContent = "You Win :)";
         pScoreCount++;
         scoreKepper();
-        checkWinner(winner);
         return;
       }
     }
@@ -96,14 +94,12 @@ const compareHands = (playerChoice, computerChoice) => {
       winner.textContent = "You Lose :(";
       cScoreCount++;
       scoreKepper();
-      checkWinner(winner);
       return;
     } else {
       if (computerChoice === "paper") {
         winner.textContent = "You Win :)";
         pScoreCount++;
         scoreKepper();
-        checkWinner(winner);
         return;
       }
     }
@@ -114,14 +110,12 @@ const compareHands = (playerChoice, computerChoice) => {
       winner.textContent = "You Lose :(";
       cScoreCount++;
       scoreKepper();
-      checkWinner(winner);
       return;
     } else {
       if (computerChoice === "rock") {
         winner.textContent = "You Win :)";
         pScoreCount++;
         scoreKepper();
-        checkWinner(winner);
         return;
       }
     }
